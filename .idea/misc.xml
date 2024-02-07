@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../SPRING_CLOUD/javabegin/eureca_client-2/pom.xml" />
+        <option value="$PROJECT_DIR$/../ComplementModule/ComplementModule/pom.xml" />
+        <option value="$PROJECT_DIR$/../ComplementModule1/ComplementModule/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

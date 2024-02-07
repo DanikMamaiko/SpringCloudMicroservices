@@ -35,6 +35,19 @@ services:
     environment:
       - EUREKA_SERVER_HOST=springservercontainer
 
+  complement-module:
+    build:
+      context: ./ComplementModule
+      dockerfile: Dockerfile
+    ports:
+      -  "8084:8084"
+    networks:
+      - eureka-network
+    depends_on:
+      - springservercontainer
+    environment:
+      - EUREKA_SERVER_HOST=springservercontainer
+
 
 networks:
   eureka-network:

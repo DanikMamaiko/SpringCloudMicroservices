@@ -8,6 +8,7 @@
     <module>springServer</module>
     <module>apiGetWay</module>
     <module>EurClient</module>
+    <module>ComplementModule</module>
   </modules>
 
   <properties>

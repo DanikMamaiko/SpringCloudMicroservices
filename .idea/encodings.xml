@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../SPRING_CLOUD/javabegin/eureca_client-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ComplementModule/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurClient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurClient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apiGetWay/src/main/java" charset="UTF-8" />

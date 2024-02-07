@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springServer" />
         <module name="EurClient" />
+        <module name="ComplementModule" />
         <module name="apiGetWay" />
       </profile>
     </annotationProcessing>
@@ -19,5 +20,10 @@
       <module name="eurekaClient" target="17" />
       <module name="eurekaClientClass" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ComplementModule" options="-parameters" />
+    </option>
   </component>
 </project>
