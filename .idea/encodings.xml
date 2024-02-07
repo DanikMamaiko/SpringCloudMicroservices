@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../SPRING_CLOUD/javabegin/eureca_client-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apiGetWay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apiGetWay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureca_client-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureca_client-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+version: '3'
+services:
+  springservercontainer:
+    build:
+      context: ./springServer
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - eureka-network
+
+  eureka-client:
+    build:
+      context: ./EurClient
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    networks:
+      - eureka-network
+    depends_on:
+      - springservercontainer
+    environment:
+      - EUREKA_SERVER_HOST=springservercontainer
+
+  api-gateway:
+    build:
+      context: ./apiGetWay
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    networks:
+      - eureka-network
+    depends_on:
+      - springservercontainer
+    environment:
+      - EUREKA_SERVER_HOST=springservercontainer
+
+
+networks:
+  eureka-network:
+    driver: bridge
